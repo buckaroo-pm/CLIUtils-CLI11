@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'simple',
+  srcs = [
+    'simple.cpp',
+  ],
+  deps = [
+    '//:cli11',
+  ],
+)
